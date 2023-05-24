@@ -1,0 +1,41 @@
+.form{
+    border: 3px solid transparent;
+    
+    width: 90vh;
+    background-color: white;
+    box-shadow: 0 5px 5px 5px rgb(164, 164, 164);
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    background: linear-gradient(80deg, #6cd86c, #15b915);
+    -ms-background: linear-gradient(80deg, #6cd86c, #15b915);
+    -moz-background: linear-gradient(80deg, #6cd86c, #15b915);
+    -webkit-background: linear-gradient(80deg, #6cd86c, #15b915);
+    
+}
+.form label{
+    color: rgb(255, 255, 255);
+}
+.form input[type="radio"]{
+    padding: 0 10px 0 10px;
+}
+.form input:hover{
+    background: #51bf2c69;
+}
+.form input[type="submit"]{
+    border: 1px solid rgba(172, 255, 47, 0.167) ;
+    background-color: #fcff3b;
+    border-radius: 10px;
+    width: 40vh;
+}
+.form input[type="submit"]:hover{
+    border: 1px solid black;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form h3[id="result"]{
+    text-decoration: underline;
+}
